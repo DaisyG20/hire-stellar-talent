@@ -10,7 +10,7 @@ export const Route = createFileRoute("/model")({
       {
         name: "description",
         content:
-          "How Northbound structures engagements: thoughtful, managed introductions tailored to the scope and support level your company needs.",
+          "How Northbound structures engagements: flexible, tailored partnerships built around thoughtful hiring and long-term support.",
       },
       { property: "og:title", content: "Our Model — Northbound" },
       {
@@ -27,17 +27,17 @@ const engagements = [
   {
     icon: Search,
     title: "Selective Search",
-    body: "For companies hiring for individual or specialized roles through thoughtfully managed introductions. We identify, screen, and present a small shortlist of exceptional candidates aligned to your exact requirements.",
+    body: "Designed for companies hiring for individual or specialized roles. Engagements are structured around the complexity of the search and level of support involved.",
   },
   {
     icon: Users,
-    title: "Ongoing Partnership",
-    body: "For growing teams making multiple hires over time and looking for a more involved hiring partner. We embed ourselves in your hiring rhythm, anticipate needs, and maintain a living pipeline of pre-qualified professionals.",
+    title: "Ongoing Hiring Support",
+    body: "For growing teams making multiple hires over time and looking for a more embedded hiring partner across sourcing, coordination, and candidate management.",
   },
   {
     icon: Shield,
-    title: "Embedded Support",
-    body: "Long-term hiring and operational support tailored around distributed teams as needs evolve. From workforce planning to compliance and ongoing talent management, we become an extension of your operations.",
+    title: "Long-Term Partnership",
+    body: "Tailored support for companies building distributed teams and requiring more ongoing operational involvement as hiring needs evolve.",
   },
 ];
 
@@ -49,13 +49,13 @@ function Model() {
         <p className="text-xs uppercase tracking-[0.18em] text-graphite mb-8">
           Our Model
         </p>
-        <h1 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] font-light leading-[0.98] tracking-tight max-w-[18ch] text-balance">
-          Structured around thoughtful hiring,{" "}
-          <span className="italic text-graphite">not application volume.</span>
+        <h1 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] font-light leading-[0.98] tracking-tight max-w-[20ch] text-balance">
+          Flexible engagement structures built around{" "}
+          <span className="italic text-graphite">thoughtful hiring.</span>
         </h1>
         <p className="mt-8 max-w-xl text-graphite leading-relaxed">
-          We structure engagements around the complexity of the search, level of
-          involvement, and long-term needs of each company.
+          We work across individual placements, ongoing hiring partnerships, and
+          longer-term operational support depending on the company&apos;s needs.
         </p>
         <div className="mt-10">
           <Link
@@ -77,7 +77,7 @@ function Model() {
       <section className="container-px mx-auto max-w-[1200px] py-24 md:py-32">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.18em] text-graphite mb-12">
-            How we work together
+            How engagements are structured
           </p>
         </Reveal>
 
@@ -103,28 +103,37 @@ function Model() {
             );
           })}
         </div>
+
+        <Reveal delay={0.2}>
+          <p className="mt-12 text-sm text-graphite leading-relaxed max-w-3xl">
+            Every engagement is scoped individually based on hiring volume, role
+            complexity, search requirements, and ongoing support needs.
+          </p>
+        </Reveal>
       </section>
 
-      {/* PHILOSOPHY */}
+      {/* COMMERCIAL APPROACH */}
       <section className="bg-ink text-background">
         <div className="container-px mx-auto max-w-[1200px] py-28 md:py-40">
           <Reveal>
             <p className="text-xs uppercase tracking-[0.18em] text-background/60 mb-8">
-              Philosophy
+              Commercial Approach
             </p>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light leading-[1.05] tracking-tight max-w-4xl text-balance">
-              We are more interested in introducing the{" "}
-              <span className="italic text-background/60">right people</span>{" "}
-              than introducing the most people.
+              We prefer{" "}
+              <span className="italic text-background/60">
+                tailored engagements
+              </span>{" "}
+              over rigid pricing packages.
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mt-10 max-w-2xl text-background/70 leading-relaxed text-base md:text-lg">
-              We believe capable people already exist everywhere. Our role is to
-              create more thoughtful access, connection, and long-term
-              opportunities between companies and remote professionals.
+              Some companies require support for a single strategic hire. Others
+              need ongoing hiring coordination across multiple functions. Our
+              model is designed to adapt accordingly.
             </p>
           </Reveal>
         </div>
@@ -136,13 +145,13 @@ function Model() {
           <Reveal>
             <h2 className="font-display text-4xl md:text-5xl font-light leading-[1.05] tracking-tight text-balance">
               Tell us what you are{" "}
-              <span className="italic text-graphite">hiring for.</span>
+              <span className="italic text-graphite">building.</span>
             </h2>
           </Reveal>
           <Reveal delay={0.08}>
             <p className="mt-6 text-graphite leading-relaxed max-w-lg">
-              Every engagement begins with understanding the role, the team,
-              and the level of support required.
+              We will structure the engagement around the level of support,
+              hiring complexity, and long-term goals involved.
             </p>
           </Reveal>
           <Reveal delay={0.15}>
